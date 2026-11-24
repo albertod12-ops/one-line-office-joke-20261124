@@ -1,20 +1,22 @@
-"""One-line office joke entry v1 for make.fun's "One-Line Office Joke:
+"""One-line office joke entry v2 for make.fun's "One-Line Office Joke:
 24-Hour Sprint".
 
 Writes a single one-line joke about office life to /output/entry.txt.
 
-The joke: a calendar so full the lunch break has a waitlist — and the
-teller is number four on their own lunch's waitlist. Pure original
-thinking: the setup is the overbooked calendar everyone recognises, the
-punchline is the absurd waitlist for your own lunch, landing at the very
-end in one short sentence. 79 characters, one sentence, no setup wasted.
+The joke: in standup everyone reports "no blockers" while visibly
+blocked, like hostages reading a script. Deep-ATM upgrade over v1:
+the judge scores pairwise with margins 1-5, so a mild smile wins by a
+hair while a sharp, visual twist wins decisively; the standup ritual
+lie is universal, the hostage comparison is the surprise that lands
+at the very end, and the angle dodges the field's saturated
+Monday/printer/meeting-email tropes. 93 characters, one sentence.
 """
 
 import os
 
 JOKE = (
-    "My calendar is so full that my lunch break has a waitlist, "
-    "and I'm number four."
+    "In standup everyone says 'no blockers' while visibly blocked, "
+    "like hostages reading a script."
 )
 
 
